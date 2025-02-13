@@ -1,0 +1,30 @@
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 100%;
+        /* Show full text */
+    }
+    100% {
+        width: 0;
+        /* Reset to loop */
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+    100% {
+        border-color: white;
+    }
+}
+
+.animate-typing {
+    animation: typing 6s steps(50) infinite, blink 0.7s infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    /* Ensure it only takes the necessary space */
+}

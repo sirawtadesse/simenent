@@ -1,5 +1,15 @@
-import "@/styles/globals.css";
+import '../styles/animations.css'; // Ensure this file exists
+import '../styles/globals.css'; // Ensure this file exists
+import { ThemeProvider } from 'next-themes';
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+function MyApp({ Component, pageProps }) {
+    return ( <
+        ThemeProvider attribute = "class" >
+        <
+        Component {...pageProps }
+        /> < /
+        ThemeProvider >
+    );
 }
+
+export default MyApp;
