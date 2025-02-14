@@ -1,5 +1,7 @@
-import '../styles/animations.css'; // Ensure this file exists
-import '../styles/globals.css'; // Ensure this file exists
+// pages/_app.js
+import '../styles/animations.css'; // Import your animations CSS
+
+import '../styles/globals.css'
 import { ThemeProvider } from 'next-themes';
 
 function MyApp({ Component, pageProps }) {

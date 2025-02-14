@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
 import ScrollToTop from '../components/ScrollToTop';
-import '../styles/animations.css'
+// import '../styles/animations.css'
 
 
 
