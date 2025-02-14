@@ -188,7 +188,7 @@ export default function Home() {
         ul className = "grid grid-cols-1 md:grid-cols-2 gap-6" > {
             [
                 { text: "17+ Years in Export Leadership", icon: "M3 12l2 2 4-4m10 4l-2-2-4 4M12 4v16" },
-                { text: "Over $100 Million in Trade Volume Managed", icon: "M3 12l2 2 4-4m10 4l-2-2-4 4M12 4v16" },
+                { text: "Trade Volume Managed", icon: "M3 12l2 2 4-4m10 4l-2-2-4 4M12 4v16" },
                 { text: "Expansive Reach Across African Markets", icon: "M3 12l2 2 4-4m10 4l-2-2-4 4M12 4v16" },
                 { text: "Built Strong International Partnerships", icon: "M3 12l2 2 4-4m10 4l-2-2-4 4M12 4v16" },
             ].map((item, index) => ( <
@@ -234,7 +234,7 @@ export default function Home() {
         { /* Service 1 */ } <
         div className = "bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all transform hover:scale-105" >
         <
-        h3 className = "text-xl font-semibold text-gray-800 dark:text-white" > ★Business Plan Maker & Consultant <
+        h3 className = "text-xl font-semibold text-gray-800 dark:text-white" > ★Business Plan Development & Consultant <
         /h3> <
         p className = "mt-2 text-gray-600 dark:text-gray-300" >
         Providing expert business planning services to startups and established companies. <
